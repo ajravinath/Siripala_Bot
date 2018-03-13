@@ -8,7 +8,7 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
-bot = telepot.Bot('532527602:AAGVVkqBX-M-KwR6ZKD9LGqRpEMHzrVK3H0')
+bot = telepot.Bot("")
 bot.getMe()
 
 num = {'tech' : 0,
